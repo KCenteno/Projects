@@ -1,6 +1,6 @@
 Welcome to names this was a project i made just so that people can come and add/share names that they like.
 
-Frist page is the log in and reg page that comes with validations.
+First page is the log in and reg page that comes with validations.
 ![Capture](https://user-images.githubusercontent.com/95673926/167872694-5f0dd897-d2db-480c-8161-f55dccf73494.PNG)
 
 This is the Dashboard page, this is where the names people have added will show up so everyone can see, can add new names,
