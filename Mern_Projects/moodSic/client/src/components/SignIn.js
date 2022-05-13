@@ -5,7 +5,7 @@ import RegistrationForm from "./RegistrationForm";
 const SignIn = () => {
     return(
         <div className="container w-50">
-            <h2>Welcome to</h2> <br />
+            <h2>Welcome to</h2>
             <h1>Moodsic</h1>
             <div className="row">
                 <div className="col">
