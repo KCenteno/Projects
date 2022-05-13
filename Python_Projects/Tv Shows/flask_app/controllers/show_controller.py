@@ -2,6 +2,7 @@ from flask_app import app
 from flask import render_template, redirect, request, session, flash
 
 from flask_app.models.show import Show
+from flask_app.models.user import User
 
 
 @app.route("/new_show")
@@ -10,7 +11,12 @@ def new_show():
         flash("please login/ register before entering the site!")
         return redirect("/")
 
-    return render_template("new_show.html")
+    data = {
+        "user_id" : session["user_id"]
+    }
+
+    user = User.by_id(data)
+    return render_template("new_show.html", user = user)
 
 
 @app.route("/create_show", methods=["POST"])

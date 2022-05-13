@@ -3,4 +3,4 @@ app = Flask(__name__)
 app.secret_key = "tv shows is the pw"
 
 
-tv = "tv_shows"
+tv = "Tv_shows_schema"
